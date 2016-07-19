@@ -2,8 +2,12 @@
 public class App {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-System.out.println("hello github!");
+
+		sayHello("github!");
+	}
+
+	private static void sayHello(String msg) {
+		System.out.println("hello "+msg);
 	}
 
 }
